@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7779D88225EA9F4200254496 /* KmmIosApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7779D88125EA9F4200254496 /* KmmIosApplicationApp.swift */; };
+		7779D88425EA9F4200254496 /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7779D88325EA9F4200254496 /* PlaylistView.swift */; };
+		7779D88625EA9F4300254496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7779D88525EA9F4300254496 /* Assets.xcassets */; };
+		7779D88925EA9F4300254496 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7779D88825EA9F4300254496 /* Preview Assets.xcassets */; };
+		7779D89825EAA05E00254496 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7779D89725EAA05E00254496 /* ItemListView.swift */; };
+		7779D89C25EAA07600254496 /* ItemImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7779D89B25EAA07600254496 /* ItemImageView.swift */; };
+		7779D89F25EAA08B00254496 /* VideoViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7779D89E25EAA08B00254496 /* VideoViewer.swift */; };
+		7779D8A225EAA0C500254496 /* PlaylistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7779D8A125EAA0C500254496 /* PlaylistViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CB70AAB4BE8C921B1EF0D51 /* Pods_KmmIosApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KmmIosApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26676696216AC3849BE01CD3 /* Pods-KmmIosApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KmmIosApplication.debug.xcconfig"; path = "Target Support Files/Pods-KmmIosApplication/Pods-KmmIosApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		474F33851BF4C98C13925BCE /* Pods-KmmIosApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KmmIosApplication.release.xcconfig"; path = "Target Support Files/Pods-KmmIosApplication/Pods-KmmIosApplication.release.xcconfig"; sourceTree = "<group>"; };
+		7762DF8C25EAA16C004D6B82 /* shared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared.framework; path = "../../../kmm/KmmSampleApplication/shared/build/xcode-frameworks/shared.framework"; sourceTree = "<group>"; };
+		7779D87E25EA9F4200254496 /* KmmIosApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KmmIosApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7779D88125EA9F4200254496 /* KmmIosApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmmIosApplicationApp.swift; sourceTree = "<group>"; };
+		7779D88325EA9F4200254496 /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		7779D88525EA9F4300254496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7779D88825EA9F4300254496 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7779D88A25EA9F4300254496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7779D89725EAA05E00254496 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		7779D89B25EAA07600254496 /* ItemImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemImageView.swift; sourceTree = "<group>"; };
+		7779D89E25EAA08B00254496 /* VideoViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewer.swift; sourceTree = "<group>"; };
+		7779D8A125EAA0C500254496 /* PlaylistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7779D87B25EA9F4200254496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9BD289B32377358D063B2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7762DF8C25EAA16C004D6B82 /* shared.framework */,
+				0CB70AAB4BE8C921B1EF0D51 /* Pods_KmmIosApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7779D87525EA9F4200254496 = {
+			isa = PBXGroup;
+			children = (
+				7779D88025EA9F4200254496 /* KmmIosApplication */,
+				7779D87F25EA9F4200254496 /* Products */,
+				8421391711089C9A51174B04 /* Pods */,
+				3F9BD289B32377358D063B2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7779D87F25EA9F4200254496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7779D87E25EA9F4200254496 /* KmmIosApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7779D88025EA9F4200254496 /* KmmIosApplication */ = {
+			isa = PBXGroup;
+			children = (
+				7779D88125EA9F4200254496 /* KmmIosApplicationApp.swift */,
+				7779D89425EA9FC100254496 /* View */,
+				7779D88525EA9F4300254496 /* Assets.xcassets */,
+				7779D88A25EA9F4300254496 /* Info.plist */,
+				7779D88725EA9F4300254496 /* Preview Content */,
+			);
+			path = KmmIosApplication;
+			sourceTree = "<group>";
+		};
+		7779D88725EA9F4300254496 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7779D88825EA9F4300254496 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7779D89225EA9FB700254496 /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				7779D88325EA9F4200254496 /* PlaylistView.swift */,
+				7779D8A125EAA0C500254496 /* PlaylistViewModel.swift */,
+			);
+			path = Playlist;
+			sourceTree = "<group>";
+		};
+		7779D89425EA9FC100254496 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7779D89625EA9FD000254496 /* Video */,
+				7779D89225EA9FB700254496 /* Playlist */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7779D89625EA9FD000254496 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				7779D89725EAA05E00254496 /* ItemListView.swift */,
+				7779D89B25EAA07600254496 /* ItemImageView.swift */,
+				7779D89E25EAA08B00254496 /* VideoViewer.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		8421391711089C9A51174B04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26676696216AC3849BE01CD3 /* Pods-KmmIosApplication.debug.xcconfig */,
+				474F33851BF4C98C13925BCE /* Pods-KmmIosApplication.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7779D87D25EA9F4200254496 /* KmmIosApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7779D88D25EA9F4300254496 /* Build configuration list for PBXNativeTarget "KmmIosApplication" */;
+			buildPhases = (
+				9120BF01EA57ACA72DE57DEE /* [CP] Check Pods Manifest.lock */,
+				7779D87A25EA9F4200254496 /* Sources */,
+				7779D87B25EA9F4200254496 /* Frameworks */,
+				7779D87C25EA9F4200254496 /* Resources */,
+				3CE93611503E19F853753C43 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KmmIosApplication;
+			productName = KmmIosApplication;
+			productReference = 7779D87E25EA9F4200254496 /* KmmIosApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7779D87625EA9F4200254496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7779D87D25EA9F4200254496 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 7779D87925EA9F4200254496 /* Build configuration list for PBXProject "KmmIosApplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7779D87525EA9F4200254496;
+			productRefGroup = 7779D87F25EA9F4200254496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7779D87D25EA9F4200254496 /* KmmIosApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7779D87C25EA9F4200254496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7779D88925EA9F4300254496 /* Preview Assets.xcassets in Resources */,
+				7779D88625EA9F4300254496 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CE93611503E19F853753C43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KmmIosApplication/Pods-KmmIosApplication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KmmIosApplication/Pods-KmmIosApplication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KmmIosApplication/Pods-KmmIosApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9120BF01EA57ACA72DE57DEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KmmIosApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7779D87A25EA9F4200254496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7779D8A225EAA0C500254496 /* PlaylistViewModel.swift in Sources */,
+				7779D88425EA9F4200254496 /* PlaylistView.swift in Sources */,
+				7779D89825EAA05E00254496 /* ItemListView.swift in Sources */,
+				7779D88225EA9F4200254496 /* KmmIosApplicationApp.swift in Sources */,
+				7779D89C25EAA07600254496 /* ItemImageView.swift in Sources */,
+				7779D89F25EAA08B00254496 /* VideoViewer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7779D88B25EA9F4300254496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7779D88C25EA9F4300254496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7779D88E25EA9F4300254496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26676696216AC3849BE01CD3 /* Pods-KmmIosApplication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"KmmIosApplication/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/URLImage\"",
+					"/Users/inogamalinda/Projects/kmm/KmmSampleApplication/shared/build/xcode-frameworks",
+				);
+				INFOPLIST_FILE = KmmIosApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayinozendy.ios.poc.KmmIosApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7779D88F25EA9F4300254496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 474F33851BF4C98C13925BCE /* Pods-KmmIosApplication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"KmmIosApplication/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/URLImage\"",
+					"/Users/inogamalinda/Projects/kmm/KmmSampleApplication/shared/build/xcode-frameworks",
+				);
+				INFOPLIST_FILE = KmmIosApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayinozendy.ios.poc.KmmIosApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7779D87925EA9F4200254496 /* Build configuration list for PBXProject "KmmIosApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7779D88B25EA9F4300254496 /* Debug */,
+				7779D88C25EA9F4300254496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7779D88D25EA9F4300254496 /* Build configuration list for PBXNativeTarget "KmmIosApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7779D88E25EA9F4300254496 /* Debug */,
+				7779D88F25EA9F4300254496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7779D87625EA9F4200254496 /* Project object */;
+}
